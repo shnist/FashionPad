@@ -3,147 +3,130 @@
 <html class="ui-mobile-rendering"> 
 
 <head>  
-	<title>FashionPad | Contents</title> 
-	<!--#include virtual="blocks/head.html" -->
+<title>FashionPad | Contents</title> 
+<!--#include virtual="blocks/head.html" -->
 </head> 
 
-	
+
 <body> 
 <!-- Start of page: #2 -->
-<div data-role="page" id="2" class="swipe">
-	<div class="navigation-bar-top">
-		<div class="navigation-cover-button left">
-			<a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/icon_home.png" alt="Cover"></a>
-                </div>
-		<div class="navigation-search-button left">
-			<a href=""><img src="images/icon_search.png" alt="Search"></a>
-                </div>
-	</div>
-        <div class="wrapper">
-            <div data-role="content" class="content" id="content-wrapper">
-                    	<div class="title-container">
-				<h1 class="title-contents">Contents</h1>
+	<div data-role="page" id="2" class="swipe">
+		<div class="navigation-bar-top">
+			<div class="navigation-cover-button left">
+				<a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/icon_home.png" alt="Cover"></a>
 			</div>
-                    <div class="contents-banner-image">  
-                        <img src="images/contents_main.jpg" alt="Contents banener image" >
-                    </div>
-                    <div class="badge"><img src="images/badge_new_section.png" alt="New Section"></div>
-                    <div class="contents_sections">
-                        <div class="col1 left">
-                            <a href="page-3.shtml" data-role="button"><img src="images/contents_image_1.jpg" alt="Pastels this spring"></a>
-                            <div class="contents_section_title">
-                                <a href="page-3.shtml" data-role="button"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
-                            </div>
-                            <a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/contents_image_2.jpg" alt="Pastels this spring"></a>
-                            <div class="contents_section_title">
-                                <a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
-                            </div>
-                        </div>
-                        <div class="col2 left">
-                            <a href="page-4.shtml" data-role="button"><img src="images/contents_image_3.jpg" alt="Pastels this spring"></a>
-                            <div class="contents_section_title">
-                                <a href="page-4.shtml" data-role="button"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
-                            </div>
-                            <img src="images/contents_image_4.jpg" alt="Pastels this spring">
-                            <div class="contents_section_title">
-                                <img src="images/contents_title_pastels.gif" alt="Pastels this spring">
-                            </div>
-                        </div>
-                        <div class="col3 left">
-                            <img src="images/contents_image_5.jpg" alt="Pastels this spring">
-                            <div class="contents_section_title">
-                                <img src="images/contents_title_pastels.gif" alt="Pastels this spring">
-                            </div>
-                            <img src="images/contents_image_6.jpg" alt="Pastels this spring">
-                            <div class="contents_section_title hidenav">
-                                <img src="images/contents_title_pastels.gif" alt="Pastels this spring">
-                            </div>
-                            <img src="images/contents_image_7.jpg" alt="Pastels this spring">
-                            <div class="contents_section_title">
-                                <img src="images/contents_title_pastels.gif" alt="Pastels this spring">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="arrow">
-                        <img src="images/arrow_blue.gif" alt="Arrow down">
-                    </div>
-            </div><!-- /content -->
-        </div><!-- /wrapper -->
-	
-
+			<div class="navigation-search-button left">
+				<a href=""><img src="images/icon_search.png" alt="Search"></a>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div data-role="content" class="content" id="content-wrapper">
+				<div class="title-container">
+					<h1 class="title-contents">Contents</h1>
+				</div>
+				<div class="contents-banner-image">  
+					<img src="images/contents_main.jpg" alt="Contents banener image" >
+				</div>
+				<div class="badge"><img src="images/badge_new_section.png" alt="New Section"></div>
+				<div class="contents_sections">
+					<div class="col1 left">
+						<a href="page-3.shtml" data-role="button"><img src="images/contents_image_1.jpg" alt="Pastels this spring"></a>
+						<div class="contents_section_title">
+							<a href="page-3.shtml" data-role="button"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
+						</div>
+						<a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/contents_image_2.jpg" alt="Pastels this spring"></a>
+						<div class="contents_section_title">
+							<a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
+						</div>
+					</div>
+					<div class="col2 left">
+						<a href="page-4.shtml" data-role="button"><img src="images/contents_image_3.jpg" alt="Pastels this spring"></a>
+						<div class="contents_section_title">
+							<a href="page-4.shtml" data-role="button"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
+						</div>
+						<img src="images/contents_image_4.jpg" alt="Pastels this spring">
+						<div class="contents_section_title">
+							<img src="images/contents_title_pastels.gif" alt="Pastels this spring">
+						</div>
+					</div>
+					<div class="col3 left">
+						<img src="images/contents_image_5.jpg" alt="Pastels this spring">
+						<div class="contents_section_title">
+							<img src="images/contents_title_pastels.gif" alt="Pastels this spring">
+						</div>
+						<img src="images/contents_image_6.jpg" alt="Pastels this spring">
+						<div class="contents_section_title hidenav">
+							<img src="images/contents_title_pastels.gif" alt="Pastels this spring">
+						</div>
+						<img src="images/contents_image_7.jpg" alt="Pastels this spring">
+						<div class="contents_section_title">
+							<img src="images/contents_title_pastels.gif" alt="Pastels this spring">
+						</div>
+					</div>
+				</div>
+				<div class="arrow">
+					<img src="images/arrow_blue.gif" alt="Arrow down">
+				</div>
+			</div><!-- /content -->
+		</div><!-- /wrapper -->
 		<div class="navigation-bar">
-                    <div class="navigation-viewer">
-			<div class="navigation-viewer-item">
-				<div class="navigation-arrow-left"><img src="images/icon_viewer_arrow_left" alt="Left arrow"></div>
-
-					<div class="navigation-viewer-item">
-						<div class="navigation-viewer-image">	
-							<img src="images/navigation_image_contents.jpg" alt="Contents page">
-						</div>	
-						<div class="navigation-viewer-title">
-							<img src="images/navigation_title_contents.png" alt="Contents page">	
-						</div>
-					</div>
-					<div class="navigation-viewer-item">
-						<div class="navigation-viewer-image">	
-							<img src="images/navigation_image_contents.jpg" alt="Contents page">
-						</div>	
-						<div class="navigation-viewer-title">
-							<img src="images/navigation_title_contents.png" alt="Contents page">	
-						</div>
-					</div>
-					<div class="navigation-viewer-item">
-						<div class="navigation-viewer-image">	
-							<img src="images/navigation_image_contents.jpg" alt="Contents page">
-						</div>	
-						<div class="navigation-viewer-title">
-							<img src="images/navigation_title_contents.png" alt="Contents page">	
-						</div>
-					</div>
-					<div class="navigation-viewer-item">
-						<div class="navigation-viewer-image">	
-							<img src="images/navigation_image_contents.jpg" alt="Contents page">
-						</div>	
-						<div class="navigation-viewer-title">
-							<img src="images/navigation_title_contents.png" alt="Contents page">	
-						</div>
-					</div>
-					<div class="navigation-viewer-item">
-						<div class="navigation-viewer-image">	
-							<img src="images/navigation_image_contents.jpg" alt="Contents page">
-						</div>	
-						<div class="navigation-viewer-title">
-							<img src="images/navigation_title_contents.png" alt="Contents page">	
-						</div>
-					</div>
-					<div class="navigation-viewer-item">
-						<div class="navigation-viewer-image">	
-							<img src="images/navigation_image_contents.jpg" alt="Contents page">
-						</div>	
-						<div class="navigation-viewer-title">
-							<img src="images/navigation_title_contents.png" alt="Contents page">	
-						</div>
-					</div>
-
-				<div class="navigation-arrow-right"><img src="images/icon_viewer_arrow_right.png" alt="Right arrow"></div>
+			<div class="navigation-viewer">
+				<img src="images/icon_viewer_arrow_left" alt="Left arrow navigation-arrow-left">
+				<ul>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+					<li class="navigation-viewer-item">
+						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
+						<span class="navigation-viewer-title"></span>
+					</li>
+				</ul>
+				<img src="images/icon_viewer_arrow_right.png" alt="Right arrow navigation-arrow-right">
 			</div>
-                    </div>
-                    <div class="navigation-bar-bottom">
-                        <div class="navigation-contents-button left">
-                            <a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/icon_contents.png" alt="Contents"></a>
-                        </div>
-                        <div class="navigation-viewer-button left">
-                            <img src="images/icon_viewer.png" alt="Page viewer">
-                        </div>
-                    </div>
-                         
-                    
-                </div>
-                <div class="navigation-button clear"><a href="">NAV</a></div>
-                
-
-</div><!-- /page 2 -->
-
+			<div class="navigation-bar-bottom">
+				<div class="navigation-contents-button left">
+					<a href="page-1.shtml" data-role="button" data-direction="reverse"><img src="images/icon_contents.png" alt="Contents"></a>
+				</div>
+				<div class="navigation-viewer-button left">
+					<img src="images/icon_viewer.png" alt="Page viewer">
+				</div>
+			</div>
+		</div>
+		<div class="navigation-button clear"><a href="">NAV</a></div>
+	</div><!-- /page 2 -->
 <!--#include virtual="blocks/scripts.html" -->    
 </body>
 </html>
