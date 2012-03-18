@@ -1,0 +1,37 @@
+
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<title>FashionPad</title>
+	<!--#include virtual="blocks/head.html" -->
+</head> 
+
+	
+<body> 
+<!-- Start of first page: #one -->
+<div data-role="page" id="1" class="swipe">
+	<div class="wrapper">
+		<div data-role="content" class="content" id="content-wrapper">
+			<div id="PhotoSwipeTarget"></div>
+				<div id="Indicators">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				
+				<h1>Article title</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis magna, blandit a ultrices vel, ultrices et erat. Etiam venenatis nisl nec dolor tincidunt eget mollis est ultrices. Donec at interdum nisl. Nulla fringilla, lacus vitae mattis facilisis, nunc massa euismod magna, quis vehicula leo felis in dui. Curabitur elit tellus, volutpat a posuere ut, volutpat sed mauris. Aliquam venenatis nisl sit amet erat feugiat at commodo magna varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus non faucibus tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<p>Mauris vel lobortis sem. Aliquam sollicitudin, nunc eu commodo gravida, leo ligula euismod ante, vel euismod diam dolor id felis. Sed egestas metus et nibh facilisis a dapibus neque egestas. Integer quis fringilla dolor. Vivamus varius, nulla eget blandit rhoncus, elit magna interdum tellus, et bibendum massa arcu sit amet eros. Ut fringilla, massa in laoreet cursus, magna dolor auctor nibh, non auctor dui libero sed risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam non nibh vel nibh pellentesque tincidunt ut ut nisl. Aliquam erat volutpat. Etiam eu massa orci, nec placerat massa. Integer in nibh lacus. Fusce adipiscing, purus sit amet faucibus commodo, magna arcu volutpat dolor, id euismod sem libero nec mi. Ut tristique scelerisque nulla eu sodales.</p>
+				<p>Praesent accumsan mi eget quam condimentum a tincidunt nisi gravida. Nullam nec cursus ipsum. Mauris tristique pulvinar tempus. Sed odio arcu, faucibus eu congue sed, bibendum non enim. Donec et elit nec dui sodales fringilla et eget lectus. Pellentesque ut auctor neque. Maecenas egestas ultrices erat, ut gravida odio dictum vel. Pellentesque at justo diam, vel varius arcu. Nullam vehicula dui sit amet sapien gravida ac dapibus lectus mattis. Maecenas a magna at elit tincidunt consectetur id condimentum enim. Sed ut risus erat, at eleifend ipsum. Nullam urna dui, pretium eget sodales id, auctor eget mi.</p>
+				<p>Aliquam erat volutpat. Nulla libero urna, tincidunt at sodales eget, viverra gravida dolor. Pellentesque et est nisi. Curabitur ac mauris ac enim elementum consequat sit amet ac arcu. In est ipsum, porttitor sollicitudin consequat sit amet, blandit sit amet leo. Nulla vitae metus sit amet lorem vehicula hendrerit non ac mauris. Aliquam pulvinar vehicula nibh nec varius. Quisque et nunc fermentum purus fringilla tincidunt a pretium enim. Aenean tincidunt, purus eu gravida porttitor, libero lacus elementum quam, semper egestas arcu odio posuere turpis. Vestibulum semper lacinia condimentum. Phasellus rhoncus volutpat magna eu varius.</p>
+			</div>
+		</div> <!-- /content -->
+	</div><!-- /wrapper -->
+</div><!-- /page 1 -->
+        
+<!--#include virtual="blocks/scripts.html" -->      
+</body>
+</html>

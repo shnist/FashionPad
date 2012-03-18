@@ -1,0 +1,24 @@
+
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<title>FashionPad | Article</title> 
+	<!--#include virtual="blocks/head.html" -->
+</head> 
+
+	
+<body> 
+
+<!-- Start of first page: #6 -->
+<div data-role="page" id="6">
+	<div id="wrapper">
+		<div data-role="content" class="content">
+			<p><a href="page-2.shtml" data-transition="pop" data-direction="reverse">Close/go back to contents page/page number 2</a><p>
+		</div>  <!-- /content -->
+	</div> 	<!-- /wrapper -->
+</div><!-- /page 6 -->
+
+<!--#include virtual="blocks/scripts.html" -->   
+</body>
+</html>

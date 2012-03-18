@@ -1,0 +1,78 @@
+
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<title>FashionPad | Article</title> 
+	<!--#include virtual="blocks/head.html" -->
+</head> 
+
+	
+<body> 
+<!-- Start of first page: #3 -->
+<div data-role="page" id="6" class="swipe">
+	<div class="wrapper">
+		<div data-role="content" class="content">
+			<div class="title-container">
+				<h1 class="title-hot">Hot this month</h1>
+				<h2 class="title-sub-hot">All the cool things we've discovered this month</h2>
+			</div>
+			<div class="hot-items-col1">
+				<div class="hot-items">
+					<h3 class="tip-hot-1"><span class="title-hot-1">Book</span></h3>
+					<div class="hot-box-1">
+						<p>Box 1</p>
+					</div>
+				</div>	
+				
+				<div class="hot-items">
+					<h3 class="tip-hot-2"><span class="title-hot-2">Website</span></h3>
+					<div class="hot-box-2 hot-box">
+						<p>Box 2</p>
+					</div>
+				</div>	
+				
+				<div class="hot-items">
+					<h3 class="tip-hot-3"><span class="title-hot-3">Music</span></h3>
+					<div class="hot-box-3 hot-box">
+						<p>Box 3</p>
+					</div>
+				</div>
+			</div>
+			<div class="hot-items-col2">
+				<div class="hot-items">
+					<h3 class="tip-hot-4"><span class="title-hot-4">Mobile application</span></h3>
+					<div class="hot-box-4">
+						<p>Box 4</p>
+					</div>
+				</div>	
+				
+				<div class="hot-items">
+					<h3 class="tip-hot-5"><span class="title-hot-5">Gadget</span></h3>
+					<div class="hot-box-5">
+						<p>Box 5</p>
+					</div>
+				</div>	
+				
+				<div class="hot-items">
+					<h3 class="tip-hot-6"><span class="title-hot-6">Interesting</span></h3>
+					<div class="hot-box-6">
+						<p>Box 6</p>
+					</div>
+				</div>
+				<div class="hot-items">
+					<h3 class="tip-hot-7"><span class="title-hot-7">Home</span></h3>
+					<div class="hot-box-7">
+						<p>Box 7</p>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>  <!-- /content -->
+	</div> 	<!-- /wrapper -->
+</div><!-- /page 6-->
+
+<!--#include virtual="blocks/scripts.html" -->   
+</body>
+</html>

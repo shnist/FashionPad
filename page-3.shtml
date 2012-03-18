@@ -1,0 +1,24 @@
+
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<title>FashionPad | Article</title> 
+	<!--#include virtual="blocks/head.html" -->
+</head> 
+
+	
+<body> 
+<!-- Start of first page: #3 -->
+<div data-role="page" id="3" class="swipe">
+	<div class="wrapper">
+		<div data-role="content" class="content">
+			<p>Hello</p>
+			<!--<p><a name="fb_share"></a></p>-->
+		</div>  <!-- /content -->
+	</div> 	<!-- /wrapper -->
+</div><!-- /page 3 -->
+
+<!--#include virtual="blocks/scripts.html" -->   
+</body>
+</html>

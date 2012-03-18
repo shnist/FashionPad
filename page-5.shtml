@@ -1,0 +1,34 @@
+
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<title>FashionPad | Twitter Feed</title> 
+	<!--#include virtual="blocks/head.html" -->
+
+</head> 
+	
+<body> 
+<!-- Start of first page: #5 -->
+<div data-role="page" id="5" class="swipe">
+	<div class="wrapper">
+		<div data-role="content" class="content">
+			<div class="title-container">
+				<h1 class="title-feed">Live fashion news</h1>
+				<h2 class="title-sub-feed">Keep up to date with fashion news through our Twitter feed</h2>
+				<h2 class="title-box-feed">Topics of this week: &#35;fashionnews, &#35;fashionnews </h2>
+			</div>
+			<div class="twitter-feed" id="tweetz">
+				<p>Just a second...</p>
+			</div>
+			<div class="refresh-feed"><a href="page-5.shtml" title="Refresh page"><img src="images/icon_refresh.gif" alt="Refresh ionn"></a></div>
+			
+		</div> <!-- /content -->
+	</div> <!-- /wrapper -->
+</div><!-- /page 5 -->
+
+
+<!--#include virtual="blocks/scripts.html" -->
+
+</body>
+</html>
