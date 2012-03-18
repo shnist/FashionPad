@@ -71,7 +71,7 @@
 		</div><!-- /wrapper -->
 		<div class="navigation-bar">
 			<div class="navigation-viewer">
-				<img src="images/icon_viewer_arrow_left" alt="Left arrow navigation-arrow-left">
+				<!--<img src="images/icon_viewer_arrow_left" alt="Left arrow navigation-arrow-left">-->
 				<ul>
 					<li class="navigation-viewer-item">
 						<img src="images/navigation_image_contents.jpg" alt="Contents page" class="navigation-viewer-item">
@@ -114,7 +114,7 @@
 						<span class="navigation-viewer-title"></span>
 					</li>
 				</ul>
-				<img src="images/icon_viewer_arrow_right.png" alt="Right arrow navigation-arrow-right">
+				<!--<img src="images/icon_viewer_arrow_right.png" alt="Right arrow navigation-arrow-right">-->
 			</div>
 			<div class="navigation-bar-bottom">
 				<div class="navigation-contents-button left">
