@@ -94,8 +94,8 @@
                 $('.navigation-bar, .navigation-bar-top').hide();
                 
                 // Show/hide navigation on a tap
-				$('.navigation-button').off('tap');
-                $('.navigation-button').on('tap', function() {
+				$('.navigation-button').unbind('tap');
+                $('.navigation-button').tap(function() {
                     $('.navigation-bar, .navigation-bar-top').toggle('fast', function() {
                     });
                 });    
