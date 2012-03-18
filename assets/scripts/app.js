@@ -80,9 +80,40 @@
             navigationviewer(page.find('.navigation-viewer'));
             //twitter(page.find('.twitter-share'));
             navigationhold(page.find('.content'));
-            twitterfeed(page.find('.twitter-feed'))
+            twitterfeed(page.find('.twitter-feed'));
+			carousel(page.find('.navigation-viewer'));
             
         }
+		
+		/**
+		 * Function carousel
+		 * Applies a carousel to the navigation viewer
+		 */
+		function carousel(element){
+			// add the arrows
+			$(element).children('ul').before('<img src="images/icon_viewer_arrow_left" alt="Left arrow" class="navigation-arrow-left">')
+			.after('<img src="images/icon_viewer_arrow_right.png" alt="Right arrow" class="navigation-arrow-right">');
+			
+			// initialise carousel
+			$(element).children('ul').carouFredSel({
+				items: 6,
+				scroll : {
+					items: 1,
+					duration : 1000
+				},
+				prev : {
+					button: $(element).children('.navigation-arrow-left')
+				},
+				next : {
+					button: $(element).children('.navigation-arrow-right')
+				},
+				auto:{
+					play:false
+				}
+			
+			});
+			
+		}
         
         /**
          * Function that controls the navigation
@@ -101,7 +132,22 @@
                 });    
             }
         }
+		
+		/**
+		 * Navigation Hold
+		 * Navigation shows when users tap holds on the page
+		 */
+        function navigationhold (element) {
+            if (element.length !== 0){
+                // Show/hide navigation on a tap
+                $(element).taphold(function() {
+                    $('.navigation-bar, .navigation-bar-top').toggle('fast', function() {
+                    });
+                });  
+            }     
+        }
         
+		
         function navigationviewer (element) {
       
             if (element.length !== 0){
@@ -116,17 +162,6 @@
             }
         }
         
-        function navigationhold (element) {
-      
-            if (element.length !== 0){
-                // Show/hide navigation on a tap
-                $(element).taphold(function() {
-                    $('.navigation-bar, .navigation-bar-top').toggle('fast', function() {
-                    });
-                });  
-            }     
-        }
-             
            
         //neatTweet 1.2 by http://andygrn.co.uk
         function twitterfeed (element) {

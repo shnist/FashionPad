@@ -39,10 +39,11 @@ p{font-family: 'Open Sans', sans-serif;font-weight:400;}
 .navigation-viewer-button, .navigation-search-button {padding: 0 0 0 20px; }
 
 .navigation-viewer{min-height:140px;background:#232322;margin:0 0 1px 0;padding:10px 0 10px 0;opacity:0.9; letter-spacing: -3px;}
-.navigation-viewer ul {margin: 0; padding: 0;}
-.navigation-viewer-item{display: inline-block;margin:0 0 0 10px; letter-spacing: 0;}
+.navigation-viewer ul {margin: 0; padding: 0; overflow: hidden;}
+.navigation-viewer-item{float: left; display: inline; height: 115px; width: 90px; margin:0 0 0 10px; letter-spacing: 0;}
 .navigation-arrow-left{float:left;padding:35px 4px 0 0;}
 .navigation-arrow-right{float:left;padding:35px 0 0 29px;}
+.navigation-viewer-title{display: block;}
 
 
 .navigation-viewer-image{opacity:1;}
