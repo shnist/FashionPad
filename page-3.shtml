@@ -9,11 +9,11 @@
 
 	
 <body> 
-<!-- Start of first page: #3 -->
+<!-- Start of page: #3 -->
 <div data-role="page" id="3" class="swipe">
 	<div class="wrapper">
 		<div data-role="content" class="content">
-			<p>Hello Aaron</p>
+			<p>Page 3</p>
 			<!--<p><a name="fb_share"></a></p>-->
 		</div>  <!-- /content -->
 	</div> 	<!-- /wrapper -->

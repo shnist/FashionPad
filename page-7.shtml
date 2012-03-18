@@ -1,0 +1,39 @@
+
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<title>FashionPad | Article</title> 
+	<!--#include virtual="blocks/head.html" -->
+</head> 
+
+	
+<body> 
+<!-- Start of page: #7 -->
+<div data-role="page" id="7" class="swipe">
+	<div class="wrapper">
+		<div data-role="content" class="content">
+			<div class="photo-page-container">
+				<div class="col">
+					<a href="page-photo-1.shtml" data-transition="pop" title="Photo1"><img src="images/photo_thumb1.jpg" alt="Photo 1"></a>
+					<img src="images/photo_thumb2.jpg" alt="Photo 2">
+					<img src="images/photo_thumb3.jpg" alt="Photo 3">
+				</div>
+				<div class="col">
+					<img src="images/photo_thumb4.jpg" alt="Photo 4">
+					<img src="images/photo_thumb5.jpg" alt="Photo 5">
+					<img src="images/photo_thumb6.jpg" alt="Photo 6">
+				</div>
+				<div class="col">
+					<img src="images/photo_thumb7.jpg" alt="Photo 7">
+					<img src="images/photo_thumb8.jpg" alt="Photo 8">
+					<img src="images/photo_thumb9.jpg" alt="Photo 9">
+				</div>
+			</div>
+		</div>  <!-- /content -->
+	</div> 	<!-- /wrapper -->
+</div><!-- /page 7 -->
+
+<!--#include virtual="blocks/scripts.html" -->   
+</body>
+</html>

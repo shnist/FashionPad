@@ -23,7 +23,7 @@
                     
                 }
             } else {
-                if($('.ui-page-active').prop('id') !== '6'){
+                if($('.ui-page-active').prop('id') !== '7'){
                     var nextPageNumber = Number($('.ui-page-active').attr('id')) + 1;
                     var nextPage = 'page-' + nextPageNumber + '.shtml';
                 

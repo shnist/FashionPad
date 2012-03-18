@@ -13,7 +13,7 @@ p{font-family: 'Open Sans', sans-serif;font-weight:400;}
 .full-image{width:768px;height:1024px;background:url('../../images/photo_full.jpg')}
 .quote{font-size:40px; background:#fff; width:250px; height:150px; /*padding:15px;margin: 300px 0 0 200px; */ margin:0;padding:0;}
 
-/* Main */
+/* Common styles */
 .left {float:left;}
 .right {float:right;}
 .clear {clear:both;}
@@ -24,8 +24,10 @@ p{font-family: 'Open Sans', sans-serif;font-weight:400;}
     -webkit-backface-visibility: hidden;
 } 
 
+/* Allows scrolling when navigaiton is open */
 .wrapper{-webkit-overflow-scrolling : auto;}
 
+/* Page wrappers */
 #content-wrapper{padding:0 50px 0 50px;width:669px;position:relative;}
 
 /* Navigation */
@@ -67,13 +69,20 @@ h2.title-box-feed {background:url('../../images/title_box_feed.gif') no-repeat 0
 .twitter-feed{background:#fff;margin:0 0 0 80px;}
 .twitter-feed p{background: url('../../images/twitter_quotes.gif') no-repeat top left;min-height:85px;color:#000; width:485px; padding:10px 65px 0 65px;}
 .twitter-feed span{margin:0 0 0 65px;}
+.twitter-feed .divider{width:562px; height:20px; background:#ffa633;}
 .refresh-feed{margin:15px 0 0 640px;}
+
+/* Photoshoot section */
+.photo-page-container{padding:50px 44px 50px 45px; background:#000;}
+.photo-page-container ul {list-style:none;float:left;}
+.photo-page-container ul li{padding:0 1px 0px 0;}
+
+.photo-large{position:relative;}
+.close-button{position:absolute;top:65px;left:65px;}
 
 /* Hot this month page */
 .hot-items-col1{float:left;}
 .hot-items-col2{float:right;}
-/*.hot-items-col2 .hot-items {width:126px;}*/
-/*.hot-items-col2 .hot-items .title-hot-4 {margin-left:40px;}*/
 
 h3.tip-hot-1{background:url('../../images/hot_tip_purple.gif') no-repeat right; width:40px; height:74px; padding:0 80px 0 0;margin:170px 0 0 0;}
 .title-hot-1{background:url('../../images/title_hot_book.png') no-repeat 10px #a352b2;text-indent:-999em; width:73px; height:14px;padding:30px 7px 30px 0;display:block;}

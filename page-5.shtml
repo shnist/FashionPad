@@ -9,7 +9,7 @@
 </head> 
 	
 <body> 
-<!-- Start of first page: #5 -->
+<!-- Start of page: #5 -->
 <div data-role="page" id="5" class="swipe">
 	<div class="wrapper">
 		<div data-role="content" class="content">

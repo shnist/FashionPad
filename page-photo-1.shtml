@@ -10,11 +10,14 @@
 	
 <body> 
 
-<!-- Start of first page: #6 -->
-<div data-role="page" id="6">
+<!-- Start of page: #6 -->
+<div data-role="page" >
 	<div id="wrapper">
 		<div data-role="content" class="content">
-			<p><a href="page-2.shtml" data-transition="pop" data-direction="reverse">Close/go back to contents page/page number 2</a><p>
+			<div class="photo-page-container">
+				<div class="photo-large"><img src="images/photo1.jpg" alt="Photo"></div>
+				<div class="close-button"><a href="page-7.shtml" data-transition="pop" data-direction="reverse"><img src="images/icon_close.gif" alt="close"></a><div>
+			</div>
 		</div>  <!-- /content -->
 	</div> 	<!-- /wrapper -->
 </div><!-- /page 6 -->

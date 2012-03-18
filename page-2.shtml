@@ -9,7 +9,7 @@
 
 	
 <body> 
-<!-- Start of first page: #2 -->
+<!-- Start of page: #2 -->
 <div data-role="page" id="2" class="swipe">
 	<div class="navigation-bar-top">
 		<div class="navigation-cover-button left">
@@ -44,7 +44,7 @@
                             <div class="contents_section_title">
                                 <a href="page-4.shtml" data-role="button"><img src="images/contents_title_pastels.gif" alt="Pastels this spring"></a>
                             </div>
-                            <a href="page-photo-1.shtml" data-transition="pop" title="Go to new/non-swipe page"><img src="images/contents_image_4.jpg" alt="Pastels this spring"></a>
+                            <img src="images/contents_image_4.jpg" alt="Pastels this spring">
                             <div class="contents_section_title">
                                 <img src="images/contents_title_pastels.gif" alt="Pastels this spring">
                             </div>
