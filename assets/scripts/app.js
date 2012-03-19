@@ -76,13 +76,14 @@
          * Function that controls navigation icon
          */
         function applier (page) {
-            navigation(page.find('.navigation-bar'));
-            navigationviewer(page.find('.navigation-viewer'));
-            //twitter(page.find('.twitter-share'));
-            navigationhold(page.find('.content'));
+
             twitterfeed(page.find('.twitter-feed'));
+			// carousel must be started before navigation
 			carousel(page.find('.navigation-viewer'));
-            
+			navigation(page.find('.navigation-bar'));
+			navigationviewer(page.find('.navigation-viewer'));
+			//twitter(page.find('.twitter-share'));
+			navigationhold(page.find('.content'));
         }
 		
 		/**
@@ -90,29 +91,31 @@
 		 * Applies a carousel to the navigation viewer
 		 */
 		function carousel(element){
-			// add the arrows
-			$(element).children('ul').before('<img src="images/icon_viewer_arrow_left" alt="Left arrow" class="navigation-arrow-left">')
-			.after('<img src="images/icon_viewer_arrow_right.png" alt="Right arrow" class="navigation-arrow-right">');
-			
-			// initialise carousel
-			$(element).children('ul').carouFredSel({
-				items: 6,
-				scroll : {
-					items: 1,
-					duration : 1000
-				},
-				prev : {
-					button: $(element).children('.navigation-arrow-left')
-				},
-				next : {
-					button: $(element).children('.navigation-arrow-right')
-				},
-				auto:{
-					play:false
-				}
-			
-			});
-			
+			if (element.length > 0){
+				// add the arrows
+				$(element).children('ul').before('<img src="images/icon_viewer_arrow_left" alt="Left arrow" class="navigation-arrow-left">')
+				.after('<img src="images/icon_viewer_arrow_right.png" alt="Right arrow" class="navigation-arrow-right">')
+				// wrap the ul
+				.wrap('<div class="carousel-wrapper"></div>');
+				
+				// initialise carousel
+				$('.carousel-wrapper').children('ul').carouFredSel({
+					items: 6,
+					scroll : {
+						items: 1,
+						wipe: true
+					},
+					prev : {
+						button: $(element).children('.navigation-arrow-left')
+					},
+					next : {
+						button: $(element).children('.navigation-arrow-right')
+					},
+					auto:{
+						play:false
+					}
+				});
+			}
 		}
         
         /**
